@@ -16,7 +16,7 @@ def llm_model(model_id):
     return llm
 
 
-llm = llm_model("openai/gpt-oss-20b")
+llm = llm_model("llama-3.1-8b-instant")
 
 response = llm.invoke(
     "Explain Retrieval Augmented Generation in simple words."
